@@ -1,0 +1,222 @@
+@import "utilites.css";
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+   }
+   header nav .left .logo img{
+      width: 150px;
+      height:80px;
+   }
+    header{
+      background-color: black;
+     clip-path: polygon(0 0, 100% 0, 100% 100% , 70% 87% ,0 100%);
+    }
+   .container{
+
+      padding:0 15px;
+      max-width: 1150px;
+      margin:0 auto;
+   }
+    
+   header nav .left a{
+      color:aliceblue;
+      text-decoration: none;
+      margin-right: 2rem;
+   }
+.flex{
+   display: flex;
+}
+
+.item-center{
+   align-items: center;
+
+}
+.justify-between{
+   justify-content: space-between;
+}
+header nav .logo{
+   margin-right: 4rem;
+}
+.btn{
+   padding:0.8rem 2rem;
+font-size: 1rem;
+font-weight: 600;
+border:2px solid transparent;
+outline:none;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.hd-btn{
+   background: skyblue;
+   color: black;
+}
+.hd-btn:hover{
+   background: transparent;
+   color: skyblue;
+   border-color: skyblue;
+}
+
+.profile img{
+   width:400px;
+   height:600px;
+}
+ .profile .right{
+   color:white
+ }
+ .profile .right h6{
+   font-size: 1rem;
+   color:skyblue;
+   margin-bottom: 0.5rem;
+ }
+ .profile .right h1{
+   font-size: 4rem;
+   font-weight:100;
+   line-height:1;
+   margin-bottom: 2rem;
+ }
+
+ .profile  .right h1 span{
+   color:skyblue;
+ }
+
+ .profile .right p{
+   line-height: 1.5;
+   margin-bottom: 2rem;
+ }
+
+ .btn-main{
+   background:transparent;
+   color: skyblue;
+   border-color:skyblue;
+}
+.btn-main:hover{
+   background: skyblue;
+   color: black;
+   border-color: skyblue;
+}
+
+.flex-1{
+   flex:1;
+}
+
+.justify-center{
+   justify-content :center;
+}
+
+.profile .right{
+   margin-top: -1rem;
+}
+
+section{
+   padding:3rem 0;
+   background:gray;
+}
+section.about img{
+   width:200px;
+   height:300px;
+   margin-left: 13rem;
+}
+section.about h1{
+   margin-bottom: 1rem;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+section.about h1 span{
+   color:skyblue;
+   font-weight: 2000;
+}
+section.about h3{
+   margin-bottom: 1rem;
+   font-size: 1rem;
+   font-weight: 400;
+}
+section.about p{
+   font-family: sans-serif;
+   line-height: 1rem;
+}
+.skills{
+   text-align: center;
+   background-color:black;
+   color:#fff;
+}
+.containers{
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   grid-gap: 6rem;;
+}
+.skill-box{
+   padding:1 rem;
+   cursor: pointer;
+}
+.skill-title{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding:0.5rem;
+   margin-bottom: 0.5rem;
+}
+.img{
+    width:90px;
+    height:50px;
+   position:relative;
+   border-radius: 50px;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.skills-icon{
+   width:50px;
+}
+.center{
+    text-align: center;
+    
+}
+.contact-me{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+
+}
+.contact-me h1{
+     color:#fff;
+}
+.contact-form{
+   margin: auto;
+
+}
+.contact input{
+   display:flex;
+   flex-direction: column;
+   margin-left:200px;
+   margin:20px;
+   padding:10px;
+   width:500px;
+  
+   background-color: black;
+   color: #fff;
+}
+.contact textarea{
+   margin: auto;
+   background-color: black;
+   color: #fff;
+}
+
+.contact-form-btn{
+   display: flex;
+   margin:auto;
+   margin-top: 10px;
+   background-color: black;
+   color: #fff; 
+   font-size: 15px;
+   padding: 5px;;
+}
